@@ -1,0 +1,311 @@
+/*Crown's CSS */
+/*nav bar*/
+.nav ul{ 
+  margin: 0;
+  padding: 0;
+  overflow: hidden;}
+
+.nav li{
+  display: inline;
+  float: left;}
+		 
+.nav a { 
+  text-decoration: none;
+  border-bottom: none;
+  display: block;
+	padding: 12px;
+	font-size: 19px;
+	color: white;
+	font-weight: bold}
+		 
+body {
+  background-color: #202020;
+  margin-left: 8%;
+  margin-right: 8%;
+  font-family:"Times New Roman", Times, serif;}
+
+.nav1{
+  float: none;
+  position: absolute;
+  top: 30%;
+  padding: 25px 25px 25px 25px;
+  left: 50%;
+  transform: translate(-50%, -50%);}
+
+.navbar{
+  float: none;
+  position: absolute;
+  top: 9%;
+  left: 50%;
+  transform: translate(-50%, -50%)}
+
+/*next and previous*/
+.changepageright{
+  text-align:center;
+  position:fixed;
+  left:50%;
+  bottom:0px;
+  height:30px;
+  width:50%;
+  text-decoration: none;
+  display: inline-block;
+  padding: 1px 1px;
+}
+
+.changepageleft{
+  text-align:center;
+  position:fixed;
+  left:0%;
+  bottom:0px;
+  height:30px;
+  width:50%;
+  text-decoration: none;
+  display: inline-block;
+  padding: 1px 1px;
+}
+
+.previous {
+  background-color: #8c8c8c;
+  color: black;
+}
+
+.next {
+  background-color: #383838;
+  color: white;
+}
+/*text changes*/
+h6 { color: #202020;}
+
+p { color: black;
+    text-indent: 16px;
+    font-size: 16px;}
+
+h1, h2, h3, h4 { color: white;}
+
+h2{ font-size: 40px;}
+
+blockquote {color: black;} 
+
+h1, h2, h3 { text-align: center;}
+
+/*padding*/
+div {
+  padding: 25px 25px 25px 25px;
+  background-color: silver;
+}
+
+/*images*/  
+ img{border: double;
+ color: white;
+ border-width: 10px;}
+ 
+ /*links*/
+ a { text-decoration: none;
+border-bottom: thin dotted;
+color: silver;
+} 
+ /*footer*/
+ .footer-text, .footer-separator{color: white;}
+ 
+/*contact form*/
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=email], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type=tel], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #202020;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Antonia's CSS */
+/*
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto Mono';
+  box-sizing: border-box;
+} */
+
+.body-rock { 
+  background-color: #710505;
+  background-image: url(/images/backgr.jpg);
+  margin-left: 8%;
+  margin-right: 8%;
+  font-family: "Roboto Mono";
+}
+
+.rock-p { color: white;
+  text-indent: 16px;
+  font-size: 40px;
+}
+
+.header-content-rock{
+  padding: 10px 10%;
+  font-size: 60px;
+}
+
+.page-nav-rock{
+  display: flex;
+  padding-left: 130px;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.page-nav-rock ul li{
+  display: inline-block;
+  list-style: none;
+  margin: 50px 30px;
+}
+
+.page-nav-rock ul li a{
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 30px;
+  position: relative;
+}
+
+.page-nav-rock ul li a::after{
+  content: '';
+  width: 0;
+  height: 3px;
+  background: #FD6814;
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  transition: 0.5s;
+}
+
+.page-nav-rock ul li a:hover::after{
+  width: 100%;
+}
+
+/* Library css Antonia*/
+.header-content-pages-rock{
+  color: black;
+  padding: 30px;
+  text-align: center;
+  font-size: 40px;
+}
+
+.main-section-library-rock img{
+  width: 300px;
+  height: 300px;
+}
+
+.main-section-library-rock h2{
+  font-size: 60px;
+  padding: 50px;
+}
+
+.main-section-library-rock{
+  background-image: linear-gradient(rgba(255,0,0,0), rgba(113,5,5,0.5));
+  text-align: center;
+}
+
+.library-div{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 50px;
+}
+
+.library-div div{
+  padding: 30px;
+}
+
+.library-div p{
+  font-size: 30px;
+}
+
+
+/*History of rock*/
+.section-history-rock{
+  text-align: center;
+  padding: 40px;
+}
+
+.section-history-rock div{
+  padding-top: 100px;
+}
+
+.section-history-rock h2{
+  font-size: 55px;
+  padding-bottom: 50px;
+}
+
+.section-history-rock p{
+  font-size: 25px;
+  padding: 50px 100px 50px 100px;
+  margin: 100px;
+  background-color: #710505;
+  border-radius: 10px;
+}
+
+.section-history-rock p span{
+  font-weight: bolder;
+}
+
+.section-history-rock img{
+  width: 600px;
+  height: 100%;
+  padding: 10px;
+}
+
+.subgenres a{
+  text-decoration: none;
+  border-bottom: none;
+  display: block;
+	padding: 12px;
+	font-size: 19px;
+	color: white;
+	font-weight: bold
+}
+
+.subgenres li{
+  display: inline;
+  float: left;
+}
+
+.subgenres{
+  padding-bottom: 60px;
+}
+
+.cimg{
+  padding: 0%;
+  width: 800px;
+  height: auto;
+}
